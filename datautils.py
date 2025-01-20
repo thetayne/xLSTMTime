@@ -169,7 +169,7 @@ def get_dls(params):
     
 
     elif params.dset == 'electricity':
-        root_path = '/home/musleh/Downloads/electricity-20240324T230129Z-001/electricity'
+        root_path = '../dataset/electricity/'
         size = [params.context_points, 0, params.target_points]
         dls = DataLoaders(
                 datasetCls=Dataset_Custom,
